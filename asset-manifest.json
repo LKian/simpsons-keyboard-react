@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/simpsons-keyboard-react/static/css/main.2659d9b0.chunk.css",
+    "main.js": "/simpsons-keyboard-react/static/js/main.303fa2e0.chunk.js",
+    "main.js.map": "/simpsons-keyboard-react/static/js/main.303fa2e0.chunk.js.map",
+    "runtime-main.js": "/simpsons-keyboard-react/static/js/runtime-main.40d340e1.js",
+    "runtime-main.js.map": "/simpsons-keyboard-react/static/js/runtime-main.40d340e1.js.map",
+    "static/js/2.c2069381.chunk.js": "/simpsons-keyboard-react/static/js/2.c2069381.chunk.js",
+    "static/js/2.c2069381.chunk.js.map": "/simpsons-keyboard-react/static/js/2.c2069381.chunk.js.map",
+    "index.html": "/simpsons-keyboard-react/index.html",
+    "precache-manifest.f1b53d578b837cb000d716e1c4d71ca1.js": "/simpsons-keyboard-react/precache-manifest.f1b53d578b837cb000d716e1c4d71ca1.js",
+    "service-worker.js": "/simpsons-keyboard-react/service-worker.js",
+    "static/css/main.2659d9b0.chunk.css.map": "/simpsons-keyboard-react/static/css/main.2659d9b0.chunk.css.map",
+    "static/js/2.c2069381.chunk.js.LICENSE.txt": "/simpsons-keyboard-react/static/js/2.c2069381.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40d340e1.js",
+    "static/js/2.c2069381.chunk.js",
+    "static/css/main.2659d9b0.chunk.css",
+    "static/js/main.303fa2e0.chunk.js"
+  ]
+}
