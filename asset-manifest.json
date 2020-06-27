@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/simpsons-keyboard-react/static/css/main.2659d9b0.chunk.css",
-    "main.js": "/simpsons-keyboard-react/static/js/main.303fa2e0.chunk.js",
-    "main.js.map": "/simpsons-keyboard-react/static/js/main.303fa2e0.chunk.js.map",
+    "main.js": "/simpsons-keyboard-react/static/js/main.4f4c8769.chunk.js",
+    "main.js.map": "/simpsons-keyboard-react/static/js/main.4f4c8769.chunk.js.map",
     "runtime-main.js": "/simpsons-keyboard-react/static/js/runtime-main.40d340e1.js",
     "runtime-main.js.map": "/simpsons-keyboard-react/static/js/runtime-main.40d340e1.js.map",
     "static/js/2.c2069381.chunk.js": "/simpsons-keyboard-react/static/js/2.c2069381.chunk.js",
     "static/js/2.c2069381.chunk.js.map": "/simpsons-keyboard-react/static/js/2.c2069381.chunk.js.map",
     "index.html": "/simpsons-keyboard-react/index.html",
-    "precache-manifest.77d0d54521af73ad246e4cbb7b13d0ad.js": "/simpsons-keyboard-react/precache-manifest.77d0d54521af73ad246e4cbb7b13d0ad.js",
+    "precache-manifest.f665cfe10f1fd17b8e0ee99aec17e85d.js": "/simpsons-keyboard-react/precache-manifest.f665cfe10f1fd17b8e0ee99aec17e85d.js",
     "service-worker.js": "/simpsons-keyboard-react/service-worker.js",
     "static/css/main.2659d9b0.chunk.css.map": "/simpsons-keyboard-react/static/css/main.2659d9b0.chunk.css.map",
     "static/js/2.c2069381.chunk.js.LICENSE.txt": "/simpsons-keyboard-react/static/js/2.c2069381.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.40d340e1.js",
     "static/js/2.c2069381.chunk.js",
     "static/css/main.2659d9b0.chunk.css",
-    "static/js/main.303fa2e0.chunk.js"
+    "static/js/main.4f4c8769.chunk.js"
   ]
 }
