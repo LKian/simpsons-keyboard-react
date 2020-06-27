@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   render() {
-    console.log("State ", this.state.keys);
+    // console.log("State ", this.state.keys);
     return (
       <StyledApp className="App">
         <Keyboard keys={this.state.keys} />
@@ -33,6 +33,8 @@ const StyledApp = styled.div`
   justify-content: center;
   min-height: 100vh;
   background-image: url("./images/background.png");
+  background-size: contain;
+  width: 100%;
 `;
 
 export default App;
