@@ -62,6 +62,20 @@ class Keyboard extends Component {
             </>
           ))}
         </div>
+        <div className="keyboard-row">
+          {this.props.keys.map((key, i) => (
+            <>
+              {i === 33 ? (
+                <Key
+                  name={key.name}
+                  image={key.image}
+                  kbd={key.kbd}
+                  dataKey={key.dataKey}
+                ></Key>
+              ) : null}
+            </>
+          ))}
+        </div>
       </StyledKeyboard>
     );
   }
