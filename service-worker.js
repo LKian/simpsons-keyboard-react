@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/simpsons-keyboard-react/precache-manifest.77267ccd373cb976c802baadd8096fc0.js"
+  "/simpsons-keyboard-react/precache-manifest.a4a1106d6addab9f31bdb2a19eedd960.js"
 );
 
 self.addEventListener('message', (event) => {
