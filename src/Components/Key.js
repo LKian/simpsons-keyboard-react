@@ -3,15 +3,13 @@ import styled from "styled-components";
 
 class Key extends Component {
   render() {
-    // console.log(this.props);
+    console.log("Image props: ", this.props.image);
     const handlerFx = (e) => {
-      const clickedKey = e.currentTarget.getAttribute("data-key");
-      console.log("clicked on ", clickedKey);
-
-      const audioKey = e.currentTarget.querySelector(
-        `audio[data-key="${e.clickedKey}"]`
+      const audio = document.querySelector(
+        `audio[data-key="${this.props.kbd}"]`
       );
-      console.log("audio key ", audioKey);
+
+      audio.play();
     };
 
     return (
@@ -23,13 +21,12 @@ class Key extends Component {
         <p className="character-name">{this.props.name}</p>
         <img
           className="character-image"
-          src={`images/${this.props.image}`}
+          src={require(`../images/${this.props.image}`)}
           alt={this.props.name}
         />
-        <audio
-          data-key={this.props.kbd}
-          src={`sounds/${this.props.name}.mp3`}
-        ></audio>
+        <audio data-key={this.props.kbd}>
+          <source src={require(`../sounds/${this.props.source}.mp3`)} />
+        </audio>
         <kbd className="character-keycode">{this.props.kbd}</kbd>
       </StyledKey>
     );

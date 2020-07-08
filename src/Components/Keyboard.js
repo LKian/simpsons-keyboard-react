@@ -14,8 +14,10 @@ class Keyboard extends Component {
                   name={key.name}
                   image={key.image}
                   kbd={key.kbd}
+                  source={key.source}
                   dataKey={key.dataKey}
-                ></Key>
+                  key={i}
+                />
               ) : null}
             </>
           ))}
@@ -28,8 +30,10 @@ class Keyboard extends Component {
                   name={key.name}
                   image={key.image}
                   kbd={key.kbd}
+                  source={key.source}
                   dataKey={key.dataKey}
-                ></Key>
+                  key={i}
+                />
               ) : null}
             </>
           ))}
@@ -42,8 +46,10 @@ class Keyboard extends Component {
                   name={key.name}
                   image={key.image}
                   kbd={key.kbd}
+                  source={key.source}
                   dataKey={key.dataKey}
-                ></Key>
+                  key={i}
+                />
               ) : null}
             </>
           ))}
@@ -51,13 +57,15 @@ class Keyboard extends Component {
         <div className="keyboard-row">
           {this.props.keys.map((key, i) => (
             <>
-              {i >= 29 && i < 37 ? (
+              {i >= 29 && i < 36 ? (
                 <Key
                   name={key.name}
                   image={key.image}
                   kbd={key.kbd}
+                  source={key.source}
                   dataKey={key.dataKey}
-                ></Key>
+                  key={i}
+                />
               ) : null}
             </>
           ))}
@@ -65,13 +73,15 @@ class Keyboard extends Component {
         <div className="keyboard-row">
           {this.props.keys.map((key, i) => (
             <>
-              {i === 33 ? (
+              {i === 36 ? (
                 <Key
                   name={key.name}
                   image={key.image}
                   kbd={key.kbd}
+                  source={key.source}
                   dataKey={key.dataKey}
-                ></Key>
+                  key={i}
+                />
               ) : null}
             </>
           ))}
