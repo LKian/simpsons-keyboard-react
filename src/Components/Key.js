@@ -3,20 +3,27 @@ import styled from "styled-components";
 
 class Key extends Component {
   render() {
-    console.log("Image props: ", this.props.image);
-    const handlerFx = (e) => {
+    window.addEventListener("keypress", logKey);
+
+    function logKey(e) {
+      console.log("You pressed: ", e.key);
+      const audioKey = document.querySelector(`audio[data-leah="${e.which}"]`);
+      audioKey.play();
+    }
+
+    const handlerMouse = (e) => {
+      console.log("You clicked on: ", this.props.name);
       const audio = document.querySelector(
         `audio[data-key="${this.props.kbd}"]`
       );
-
       audio.play();
     };
 
     return (
       <StyledKey
-        className="thestyledkey"
+        className="key"
         data-key={this.props.dataKey}
-        onClick={handlerFx}
+        onClick={handlerMouse}
       >
         <p className="character-name">{this.props.name}</p>
         <img
@@ -24,7 +31,7 @@ class Key extends Component {
           src={require(`../images/${this.props.image}`)}
           alt={this.props.name}
         />
-        <audio data-key={this.props.kbd}>
+        <audio data-leah={this.props.dataKey} data-key={this.props.kbd}>
           <source src={require(`../sounds/${this.props.source}.mp3`)} />
         </audio>
         <kbd className="character-keycode">{this.props.kbd}</kbd>
