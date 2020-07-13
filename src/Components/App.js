@@ -14,11 +14,10 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    console.log("Component did mount.");
+    console.log("Welcome to Springfield!");
   }
 
   render() {
-    // console.log("State ", this.state.keys);
     return (
       <StyledApp className="App">
         <Keyboard keys={this.state.keys} />
