@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98a3899771526888e1f02b168ad7429a",
+    "revision": "5dede8c3a174475b685576bd41c01eec",
     "url": "/simpsons-keyboard-react/index.html"
   },
   {
-    "revision": "a180033bf2f670e1e63e",
+    "revision": "fbf38ef934cda6b430d6",
     "url": "/simpsons-keyboard-react/static/css/main.866710ed.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/simpsons-keyboard-react/static/js/2.260a9850.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a180033bf2f670e1e63e",
-    "url": "/simpsons-keyboard-react/static/js/main.54932f84.chunk.js"
+    "revision": "fbf38ef934cda6b430d6",
+    "url": "/simpsons-keyboard-react/static/js/main.c859e0a7.chunk.js"
   },
   {
     "revision": "4a83fb19cb538e3dd842",
